@@ -1,5 +1,5 @@
 <template>
-  <div class="header">
+  <div class="header" style="background-image: url(image/headerPaper.jpg)">
     <v-layout align-center>
       <div class="logo">문형곤의 포트폴리오</div>
       <v-spacer></v-spacer>
@@ -13,6 +13,8 @@
 .header {
   padding: 20px;
   box-shadow: 0 6px 6px #eee;
+  background-size: cover;
+  background-position: center center;
 }
 .header .logo {
   font-size: 20px;
