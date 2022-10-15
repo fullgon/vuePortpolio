@@ -1,6 +1,12 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import BigScenery from '../views/catagory/BigScenery.vue'
+import Character from '../views/catagory/Character.vue'
+import Flower from '../views/catagory/Flower.vue'
+import Object from '../views/catagory/Object.vue'
+import Practice from '../views/catagory/Practice.vue'
+import SmallScenery from '../views/catagory/SmallScenery.vue'
 
 Vue.use(VueRouter)
 
@@ -11,11 +17,38 @@ const routes = [
     component: HomeView
   },
   {
+    path: '/scenery/big',
+    name: 'bigScenery',
+    component: BigScenery
+  },
+  {
+    path: '/character',
+    name: 'character',
+    component: Character
+  },
+  {
+    path: '/flower',
+    name: 'flower',
+    component: Flower
+  },
+  {
+    path: '/object',
+    name: 'object',
+    component: Object
+  },
+  {
+    path: '/practice',
+    name: 'practice',
+    component: Practice
+  },
+  {
+    path: '/scenery/small',
+    name: 'smallScenery',
+    component: SmallScenery
+  },
+  {
     path: '/about',
     name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
   }
 ]
