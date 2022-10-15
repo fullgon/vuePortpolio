@@ -35,7 +35,7 @@
           xs4
           class="pa-2 pointer"
           :data-aos="picture.animation"
-          @click="goPortpolio"
+          @click="goCategory(picture.path)"
           @mouseover="picture.mouseOver = true"
           @mouseleave="picture.mouseOver = false"
           v-for="(picture, index) in pictureList"
@@ -80,36 +80,42 @@ export default {
       },
       pictureList: [
         {
+          path: "/character",
           category: "인물",
           img: "top1.jpg",
           animation: "fade-right",
           mouseOver: false,
         },
         {
+          path: "/object",
           category: "사물",
           img: "top2.jpg",
           animation: "fade-down",
           mouseOver: false,
         },
         {
+          path: "/flower",
           category: "꽃",
           img: "top3.jpg",
           animation: "fade-left",
           mouseOver: false,
         },
         {
+          path: "/scenery/small",
           category: "小풍경",
           img: "top1.jpg",
           animation: "fade-right",
           mouseOver: false,
         },
         {
+          path: "/scenery/big",
           category: "大풍경",
           img: "top2.jpg",
           animation: "fade-down",
           mouseOver: false,
         },
         {
+          path: "/practice",
           category: "연습",
           img: "top3.jpg",
           animation: "fade-left",
@@ -126,8 +132,8 @@ export default {
     SwiperSlide,
   },
   methods: {
-    goPortpolio() {
-      this.$router.push("/person");
+    goCategory(path) {
+      this.$router.push(path);
     },
   },
 };
