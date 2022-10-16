@@ -34,12 +34,12 @@
         <v-flex
           xs4
           class="pa-2 pointer"
+          v-for="(picture, index) in pictureList"
+          v-bind:key="index"
           :data-aos="picture.animation"
           @click="goCategory(picture.path)"
           @mouseover="picture.mouseOver = true"
           @mouseleave="picture.mouseOver = false"
-          v-for="(picture, index) in pictureList"
-          v-bind:key="index"
         >
           <v-responsive
             aspect-ratio="1/1"
