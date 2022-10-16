@@ -12,7 +12,7 @@
 <style scoped>
 .header {
   padding: 20px;
-  box-shadow: 0 6px 6px #eee;
+  box-shadow: 0px -3px 10px black inset;
   background-size: cover;
   background-position: center center;
 }
