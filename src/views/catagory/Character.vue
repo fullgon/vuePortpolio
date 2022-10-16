@@ -8,6 +8,22 @@
       <div class="image-box-right" data-aos="zoom-in-up">
         <img class="img" src="image/headerPaper.jpg" />
       </div>
+
+      <div class="image-box" data-aos="zoom-in-up">
+        <img class="img" src="image/top1.jpg" />
+      </div>
+
+      <div class="image-box-right" data-aos="zoom-in-up">
+        <img class="img" src="image/headerPaper.jpg" />
+      </div>
+
+      <div class="image-box" data-aos="zoom-in-up">
+        <img class="img" src="image/top1.jpg" />
+      </div>
+
+      <div class="image-box-right" data-aos="zoom-in-up">
+        <img class="img" src="image/headerPaper.jpg" />
+      </div>
     </v-layout>
   </div>
 </template>
