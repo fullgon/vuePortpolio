@@ -7,6 +7,8 @@ import Flower from '../views/catagory/Flower.vue'
 import Object from '../views/catagory/Object.vue'
 import Practice from '../views/catagory/Practice.vue'
 import SmallScenery from '../views/catagory/SmallScenery.vue'
+import Profil from '../views/menu/Profil.vue'
+import Introduce from '../views/menu/Introduce.vue'
 
 Vue.use(VueRouter)
 
@@ -45,6 +47,16 @@ const routes = [
     path: '/smallscenery',
     name: 'smallScenery',
     component: SmallScenery
+  },
+  {
+    path: '/profil',
+    name: 'profil',
+    component: Profil
+  },
+  {
+    path: '/introduce',
+    name: 'introduce',
+    component: Introduce
   },
   // {
   //   path: '/about',

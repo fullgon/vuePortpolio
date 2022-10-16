@@ -3,8 +3,8 @@
     <v-layout align-center>
       <div class="logo" @click="goHome">문형곤의 포트폴리오</div>
       <v-spacer></v-spacer>
-      <v-btn text>My Profil</v-btn>
-      <v-btn text>Introduce</v-btn>
+      <v-btn text @click="goProfil">Profil</v-btn>
+      <v-btn text @click="goIntroduce">Introduce</v-btn>
     </v-layout>
   </div>
 </template>
@@ -14,6 +14,12 @@ export default {
   methods: {
     goHome() {
       this.$router.push("/");
+    },
+    goProfil() {
+      this.$router.push("/profil");
+    },
+    goIntroduce() {
+      this.$router.push("/introduce");
     },
   },
 };
