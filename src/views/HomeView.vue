@@ -101,14 +101,14 @@ export default {
           mouseOver: false,
         },
         {
-          path: "/scenery/small",
+          path: "/smallscenery",
           category: "小풍경",
           img: "top1.jpg",
           animation: "fade-right",
           mouseOver: false,
         },
         {
-          path: "/scenery/big",
+          path: "/bigscenery",
           category: "大풍경",
           img: "top2.jpg",
           animation: "fade-down",

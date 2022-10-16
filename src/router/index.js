@@ -17,7 +17,7 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/scenery/big',
+    path: '/bigscenery',
     name: 'bigScenery',
     component: BigScenery
   },
@@ -42,7 +42,7 @@ const routes = [
     component: Practice
   },
   {
-    path: '/scenery/small',
+    path: '/smallscenery',
     name: 'smallScenery',
     component: SmallScenery
   },
