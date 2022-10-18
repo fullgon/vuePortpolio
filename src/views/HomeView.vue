@@ -116,7 +116,7 @@ export default {
         {
           path: "/bigscenery",
           category: "大풍경",
-          img: "bigScenery/big_scenery1.jpg",
+          img: "bigScenery/big_scenery2.jpg",
           animation: "fade-down",
           mouseOver: false,
         },
