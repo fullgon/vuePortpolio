@@ -14,7 +14,7 @@
           align-center
           justify-center
         >
-          <div class="slog">명지전문대학 문형곤</div>
+          <div class="slog">문형곤</div>
         </v-layout>
       </SwiperSlide>
       <SwiperSlide class="slide" style="background-image: url(image/top2.jpg)">
