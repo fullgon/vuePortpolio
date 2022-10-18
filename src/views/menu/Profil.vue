@@ -1,20 +1,13 @@
 <template>
   <div class="container" style="background-image: url(image/headerPaper.jpg)">
     <v-layout class="image-container" wrap>
-      <div class="image-box">
-        Hi I'm Gon<br />
-        I'm an illustrator based in the United Kingdom with an affinity for
-        colour and a sensitive disposition.<br />
-        My tools of choice are my trusty pentel brush pen, faber-catell
-        polychromos, photoshop and procreate. I like to bring texture, colour
-        and a bit of tongue-in-cheek humour to my work and particularly enjoy
-        drawing people all different shapes and sizes.<br />
-        When I'm not drawing I'll often think about dismantling the patriarchy,
-        what I’ll be having for breakfast the next day, and cats.<br />
-      </div>
+      <div class="year">2022</div>
+      <div class="image-box-right">비룡소 캐릭터그림책공모전 대상 수상</div>
 
+      <div class="year">2021</div>
       <div class="image-box-right">
-        <img class="img" src="image/headerPaper.jpg" />
+        미국 일러스트레이터협회 선정 올해의 어린이책 일러스트레이션 금상(최고상)
+        수상
       </div>
     </v-layout>
   </div>
@@ -39,14 +32,14 @@ export default {};
   display: flex;
 }
 
-.image-box {
-  width: 40%;
+.year {
+  width: 20%;
   padding: 5%;
   border: solid;
 }
 
 .image-box-right {
-  width: 40%;
+  width: 80%;
   padding: 5%;
   border: solid;
 }
