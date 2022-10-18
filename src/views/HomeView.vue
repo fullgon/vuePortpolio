@@ -5,7 +5,7 @@
         class="slide"
         data-aos="fade-in"
         data-aos-duration="1100"
-        style="background-image: url(image/top1.jpg)"
+        style="background-image: url(image/bigScenery/big_scenery4.jpg)"
       >
         <v-layout
           data-aos="fade-up"
@@ -17,12 +17,18 @@
           <div class="slog">문형곤</div>
         </v-layout>
       </SwiperSlide>
-      <SwiperSlide class="slide" style="background-image: url(image/top2.jpg)">
+      <SwiperSlide
+        class="slide"
+        style="background-image: url(image/object/object1.jpg)"
+      >
         <v-layout fill-height align-center justify-center>
           <div class="slog">행복하게</div>
         </v-layout>
       </SwiperSlide>
-      <SwiperSlide class="slide" style="background-image: url(image/top3.jpg)">
+      <SwiperSlide
+        class="slide"
+        style="background-image: url(image/practice/practice1.jpg)"
+      >
         <v-layout fill-height align-center justify-center>
           <div class="slog">즐겁게</div>
         </v-layout>
@@ -82,42 +88,42 @@ export default {
         {
           path: "/character",
           category: "인물",
-          img: "top1.jpg",
+          img: "character/character1.jpg",
           animation: "fade-right",
           mouseOver: false,
         },
         {
           path: "/object",
           category: "사물",
-          img: "top2.jpg",
+          img: "object/object1.jpg",
           animation: "fade-down",
           mouseOver: false,
         },
         {
           path: "/flower",
           category: "꽃",
-          img: "top3.jpg",
+          img: "flower/flower1.jpg",
           animation: "fade-left",
           mouseOver: false,
         },
         {
           path: "/smallscenery",
           category: "小풍경",
-          img: "top1.jpg",
+          img: "smallScenery/small_scenery1.jpg",
           animation: "fade-right",
           mouseOver: false,
         },
         {
           path: "/bigscenery",
           category: "大풍경",
-          img: "top2.jpg",
+          img: "bigScenery/big_scenery1.jpg",
           animation: "fade-down",
           mouseOver: false,
         },
         {
           path: "/practice",
           category: "연습",
-          img: "top3.jpg",
+          img: "practice/practice1.jpg",
           animation: "fade-left",
           mouseOver: false,
         },
@@ -148,7 +154,7 @@ export default {
   .slog {
     font-size: 60px;
     font-weight: bold;
-    color: white;
+    color: darkblue;
   }
 }
 
@@ -173,7 +179,7 @@ export default {
   .list-font {
     font-size: 45px;
     font-weight: bold;
-    color: white;
+    color: black;
   }
 
   .pointer {
