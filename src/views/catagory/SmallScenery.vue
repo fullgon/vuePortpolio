@@ -2,23 +2,23 @@
   <div class="container" style="background-image: url(image/headerPaper.jpg)">
     <v-layout class="image-container" wrap>
       <div class="image-box" data-aos="zoom-in-up">
-        <img class="img" src="image/top1.jpg" />
+        <img class="img" src="image/smallScenery/small_scenery1.jpg" />
       </div>
 
       <div class="image-box-right" data-aos="zoom-in-up">
-        <img class="img" src="image/headerPaper.jpg" />
+        <img class="img" src="image/smallScenery/small_scenery2.jpg" />
       </div>
 
       <div class="image-box" data-aos="zoom-in-up">
-        <img class="img" src="image/top1.jpg" />
+        <img class="img" src="image/smallScenery/small_scenery3.jpg" />
       </div>
 
       <div class="image-box-right" data-aos="zoom-in-up">
-        <img class="img" src="image/headerPaper.jpg" />
+        <img class="img" src="image/smallScenery/small_scenery4.jpg" />
       </div>
 
       <div class="image-box" data-aos="zoom-in-up">
-        <img class="img" src="image/top1.jpg" />
+        <img class="img" src="image/smallScenery/small_scenery5.jpg" />
       </div>
     </v-layout>
   </div>

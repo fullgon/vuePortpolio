@@ -2,23 +2,31 @@
   <div class="container" style="background-image: url(image/headerPaper.jpg)">
     <v-layout class="image-container" wrap>
       <div class="image-box" data-aos="zoom-in-up">
-        <img class="img" src="image/top1.jpg" />
+        <img class="img" src="image/practice/practice1.jpg" />
       </div>
 
       <div class="image-box-right" data-aos="zoom-in-up">
-        <img class="img" src="image/headerPaper.jpg" />
+        <img class="img" src="image/practice/practice2.jpg" />
       </div>
 
       <div class="image-box" data-aos="zoom-in-up">
-        <img class="img" src="image/top1.jpg" />
+        <img class="img" src="image/practice/practice3.jpg" />
       </div>
 
       <div class="image-box-right" data-aos="zoom-in-up">
-        <img class="img" src="image/headerPaper.jpg" />
+        <img class="img" src="image/practice/practice4.jpg" />
       </div>
 
       <div class="image-box" data-aos="zoom-in-up">
-        <img class="img" src="image/top1.jpg" />
+        <img class="img" src="image/practice/practice5.jpg" />
+      </div>
+
+      <div class="image-box-right" data-aos="zoom-in-up">
+        <img class="img" src="image/practice/practice6.jpg" />
+      </div>
+
+      <div class="image-box" data-aos="zoom-in-up">
+        <img class="img" src="image/practice/practice7.jpg" />
       </div>
     </v-layout>
   </div>
