@@ -50,13 +50,11 @@ export default {};
 .image-box {
   width: 60%;
   padding: 5%;
-  border: solid;
 }
 
 .image-box-right {
   width: 60%;
   padding: 5%;
-  border: solid;
   margin-left: 40%;
 }
 
