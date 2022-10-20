@@ -1,11 +1,11 @@
 <template>
   <div class="container" style="background-image: url(image/headerPaper.jpg)">
     <v-layout class="image-container" wrap>
-      <div class="image-box" data-aos="zoom-in-up">
+      <div class="image-box">
         <img class="img" src="image/flower/flower1.jpg" />
       </div>
 
-      <div class="image-box-right" data-aos="zoom-in-up">
+      <div class="image-box-right">
         <img class="img" src="image/flower/flower2.jpg" />
       </div>
     </v-layout>

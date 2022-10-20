@@ -1,35 +1,35 @@
 <template>
   <div class="container" style="background-image: url(image/headerPaper.jpg)">
     <v-layout class="image-container" wrap>
-      <div class="image-box" data-aos="zoom-in-up">
+      <div class="image-box">
         <img class="img" src="image/object/object1.jpg" />
       </div>
 
-      <div class="image-box-right" data-aos="zoom-in-up">
+      <div class="image-box-right">
         <img class="img" src="image/object/object2.jpg" />
       </div>
 
-      <div class="image-box" data-aos="zoom-in-up">
+      <div class="image-box">
         <img class="img" src="image/object/object3.jpg" />
       </div>
 
-      <div class="image-box-right" data-aos="zoom-in-up">
+      <div class="image-box-right">
         <img class="img" src="image/object/object4.jpg" />
       </div>
 
-      <div class="image-box" data-aos="zoom-in-up">
+      <div class="image-box">
         <img class="img" src="image/object/object5.jpg" />
       </div>
 
-      <div class="image-box-right" data-aos="zoom-in-up">
+      <div class="image-box-right">
         <img class="img" src="image/object/object6.jpg" />
       </div>
 
-      <div class="image-box" data-aos="zoom-in-up">
+      <div class="image-box">
         <img class="img" src="image/object/object7.jpg" />
       </div>
 
-      <div class="image-box-right" data-aos="zoom-in-up">
+      <div class="image-box-right">
         <img class="img" src="image/object/object8.jpg" />
       </div>
     </v-layout>
